@@ -1,0 +1,12 @@
+[package]
+name = "trading-python"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "trading"
+crate-type = ["cdylib"]
+
+[dependencies]
+trading-core.workspace = true
+pyo3 = { version = "0.27", features = ["extension-module"] }
