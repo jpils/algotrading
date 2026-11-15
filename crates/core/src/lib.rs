@@ -3,3 +3,7 @@
 
 pub mod prelude;
 pub mod error;
+
+pub mod types;
+pub mod data;
+pub mod fetcher;
